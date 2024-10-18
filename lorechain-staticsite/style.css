@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Container for all sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #007bff;
+    color: white;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+#hero button {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#hero button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section Text */
+p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Social Links */
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Section Background Colors */
+#about-lorechain {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+#about-me {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+}
+
+#the-vision {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+#contact {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+}
